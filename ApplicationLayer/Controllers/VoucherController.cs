@@ -8,7 +8,7 @@ using Microsoft.Extensions.Hosting;
 
 namespace ApplicationLayer.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class VoucherController : ControllerBase
     {
